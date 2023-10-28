@@ -1,12 +1,22 @@
 const btn_nao = document.querySelector('.btn-nao')
 const btn_sim = document.querySelector('.btn-sim')
-const titulo = document.querySelector('h2')
+const titulo = document.querySelector('.campo')
+const btnenviar = document.querySelector('.enviar')
+const receber = document.querySelector('.cemPorcento')
 
 
 btn_nao.addEventListener('mouseover', desviarNao)
 btn_sim.addEventListener('click', aceitou)
+btnenviar.addEventListener('click', enviar)
+function enviar(){
+    const receber = document.querySelector('.cemPorcento')
+    receber.style.display = 'flex'
+    receber.style.justifycontent = 'center'
+}
+
 
 function aceitou(){
+
     let aceitou = document.querySelector('.aceitou')
     aceitou.style.display = 'flex'
     aceitou.style.justifycontent = 'center'
