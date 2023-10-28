@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: violet;
+    background-color: rgb(172, 2, 2);
     user-select: none;
 }
 
@@ -22,7 +22,7 @@ h1{
     align-items: center;
 }
 .btn-sim, .btn-nao{
-    background-color: blueviolet;
+    background-color: rgb(0, 0, 0);
     padding: 10px 50px;
     margin: 0 20px;
     border-radius: 10%;
@@ -31,7 +31,7 @@ h1{
     border: none;
 }
 .btn-sim:hover, .btn-nao:hover{
-    background-color: rgb(73, 25, 117);
+    background-color: rgb(209, 171, 244);
 }
 
 .btn-nao{
