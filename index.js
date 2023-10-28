@@ -15,9 +15,9 @@ function aceitou(){
 
 function randomPosition() {
     const x = Math.floor(Math.random() * 300) + 5;
-    const y = Math.floor(Math.random() * 100) + 5;
+    const y = Math.floor(Math.random() * 300) + 5;
     const yn = Math.floor(Math.random() * 300) + 5;
-    const xn = Math.floor(Math.random() * 100) + 5;
+    const xn = Math.floor(Math.random() * 300) + 5;
 
     const xnn = Math.ceil(xn)
     const ynn = Math.ceil(yn)
